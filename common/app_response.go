@@ -12,4 +12,5 @@ func NewSuccessResponse(data, paging, filter interface{}) *successRes {
 
 func SimpleSuccessResponse(data interface{}) *successRes {
 	return NewSuccessResponse(data, nil, nil)
+	//hehe
 }
